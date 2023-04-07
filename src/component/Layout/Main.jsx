@@ -6,12 +6,12 @@ export const ringContext = createContext("ring");
 
 const Main = () => {
   return (
-    <ringContext value='ring'>
+    <ringContext.Provider value='ring'>
       <div>
         <Header></Header>
         <Outlet></Outlet>
       </div>
-    </ringContext>
+    </ringContext.Provider>
   );
 };
 

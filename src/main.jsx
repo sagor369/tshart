@@ -9,6 +9,8 @@ import './index.css'
 import Main from './component/Layout/Main';
 import Home from './component/Home/Home';
 import Orders from './component/Orders/Orders';
+import About from './component/About/About';
+import Granpa from './component/Granpa/Granpa';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: 'orders',
         element: <Orders></Orders>
+      },
+      {
+        path: 'about',
+        element: <About></About>
+      },
+      {
+        path: 'granpa',
+        element: <Granpa></Granpa>
       }
     ]
     
